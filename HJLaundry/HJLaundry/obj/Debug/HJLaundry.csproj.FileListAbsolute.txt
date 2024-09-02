@@ -1,0 +1,236 @@
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\HJLaundry.dll.config
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\HJLaundry.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\HJLaundry.pdb
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\csc.exe
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\csc.exe.config
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\csc.rsp
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\csi.exe
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\csi.exe.config
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\csi.rsp
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.AppContext.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Collections.Immutable.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Console.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.IO.Compression.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.IO.FileSystem.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.IO.Pipes.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Reflection.Metadata.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.AccessControl.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.Claims.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.ValueTuple.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XPath.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\vbc.exe
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\vbc.exe.config
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\vbc.rsp
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\VBCSCompiler.exe
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\roslyn\VBCSCompiler.exe.config
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Antlr3.Runtime.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Microsoft.Web.Infrastructure.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Newtonsoft.Json.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Helpers.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Mvc.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Optimization.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Razor.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.WebPages.Deployment.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.WebPages.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.WebPages.Razor.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\WebGrease.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Helpers.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Mvc.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Optimization.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.Razor.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.WebPages.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.WebPages.Deployment.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\System.Web.WebPages.Razor.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Newtonsoft.Json.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Antlr3.Runtime.pdb
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csprojAssemblyReference.cache
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csproj.CoreCompileInputs.cache
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csproj.CopyComplete
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\obj\Debug\HJLaundry.dll
+D:\Kuliah Epal\Semester 3\Pemrograman 4\Tugas Besar\HJLaundry\HJLaundry\obj\Debug\HJLaundry.pdb
+D:\HJLaundry\HJLaundry\HJLaundry\bin\HJLaundry.dll.config
+D:\HJLaundry\HJLaundry\HJLaundry\bin\HJLaundry.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\HJLaundry.pdb
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csc.exe
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csc.exe.config
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csc.rsp
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csi.exe
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csi.exe.config
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csi.rsp
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.AppContext.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Collections.Immutable.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Console.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.Compression.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.FileSystem.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.Pipes.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Reflection.Metadata.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.AccessControl.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Claims.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Principal.Windows.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.ValueTuple.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XPath.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\vbc.exe
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\vbc.exe.config
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\vbc.rsp
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\VBCSCompiler.exe
+D:\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\VBCSCompiler.exe.config
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Antlr3.Runtime.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Microsoft.Web.Infrastructure.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Newtonsoft.Json.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Helpers.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Mvc.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Optimization.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Razor.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Deployment.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Razor.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\WebGrease.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Helpers.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Mvc.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Optimization.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Razor.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Deployment.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Razor.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Newtonsoft.Json.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Antlr3.Runtime.pdb
+D:\HJLaundry\HJLaundry\HJLaundry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csprojAssemblyReference.cache
+D:\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csproj.CoreCompileInputs.cache
+D:\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csproj.CopyComplete
+D:\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.dll
+D:\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.pdb
+D:\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.SqlServer.dll
+D:\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.xml
+D:\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.SqlServer.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\HJLaundry.dll.config
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\HJLaundry.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\HJLaundry.pdb
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csc.exe
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csc.exe.config
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csc.rsp
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csi.exe
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csi.exe.config
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\csi.rsp
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.AppContext.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Collections.Immutable.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Console.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.Compression.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.FileSystem.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.IO.Pipes.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Reflection.Metadata.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.AccessControl.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Claims.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.ValueTuple.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XPath.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\vbc.exe
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\vbc.exe.config
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\vbc.rsp
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\VBCSCompiler.exe
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\roslyn\VBCSCompiler.exe.config
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Antlr3.Runtime.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.SqlServer.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Microsoft.Web.Infrastructure.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Newtonsoft.Json.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Helpers.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Mvc.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Optimization.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Razor.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Deployment.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Razor.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\WebGrease.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\EntityFramework.SqlServer.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Helpers.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Mvc.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Optimization.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.Razor.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Deployment.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\System.Web.WebPages.Razor.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Newtonsoft.Json.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Antlr3.Runtime.pdb
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csprojAssemblyReference.cache
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csproj.CoreCompileInputs.cache
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.csproj.CopyComplete
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.dll
+D:\Pacar Tersayang\Semester 3\PRG 4\Project\HJLaundry\HJLaundry\HJLaundry\obj\Debug\HJLaundry.pdb

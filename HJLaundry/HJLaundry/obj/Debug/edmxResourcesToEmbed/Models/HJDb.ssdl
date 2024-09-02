@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="laundryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="detail_trs_pembelian">
+    <Key>
+      <PropertyRef Name="id_detail_transaksi_pembelian" />
+    </Key>
+    <Property Name="id_detail_transaksi_pembelian" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_pembelian" Type="int" Nullable="false" />
+    <Property Name="id_barang" Type="int" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="subtotal" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="jenis_pembayaran">
+    <Key>
+      <PropertyRef Name="id_jenis_pembayaran" />
+    </Key>
+    <Property Name="id_jenis_pembayaran" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_jenis_pembayaran" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ms_barang">
+    <Key>
+      <PropertyRef Name="id_barang" />
+    </Key>
+    <Property Name="id_barang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_barang" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="harga" Type="money" Nullable="false" />
+    <Property Name="stok" Type="int" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ms_customer">
+    <Key>
+      <PropertyRef Name="id_customer" />
+    </Key>
+    <Property Name="id_customer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_customer" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telp_customer" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="alamat_customer" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ms_jabatan">
+    <Key>
+      <PropertyRef Name="id_jabatan" />
+    </Key>
+    <Property Name="id_jabatan" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_jabatan" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ms_paket">
+    <Key>
+      <PropertyRef Name="id_paket" />
+    </Key>
+    <Property Name="id_paket" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_paket" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="harga" Type="money" Nullable="false" />
+    <Property Name="keterangan" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ms_pegawai">
+    <Key>
+      <PropertyRef Name="id_pegawai" />
+    </Key>
+    <Property Name="id_pegawai" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_pegawai" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="tgl_lahir" Type="date" Nullable="false" />
+    <Property Name="jenis_kelamin" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="telp_pegawai" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="alamat_pegawai" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="id_jabatan" Type="int" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="status_pgw" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ms_supplier">
+    <Key>
+      <PropertyRef Name="id_supplier" />
+    </Key>
+    <Property Name="id_supplier" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_supplier" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="alamat_supplier" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="telp_supplier" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="trs_member">
+    <Key>
+      <PropertyRef Name="id_trsmember" />
+    </Key>
+    <Property Name="id_trsmember" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tgl_trsmember" Type="date" Nullable="false" />
+    <Property Name="id_customer" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="nama_customer" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telp_customer" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="alamat_customer" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="trs_pembelian">
+    <Key>
+      <PropertyRef Name="id_pembelian" />
+    </Key>
+    <Property Name="id_pembelian" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_pegawai" Type="int" Nullable="false" />
+    <Property Name="id_supplier" Type="int" Nullable="false" />
+    <Property Name="total" Type="money" Nullable="false" />
+    <Property Name="tgl_pembelian" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="trs_penerimaan">
+    <Key>
+      <PropertyRef Name="id_penerimaan" />
+    </Key>
+    <Property Name="id_penerimaan" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_customer" Type="int" Nullable="false" />
+    <Property Name="tgl_penerimaan" Type="date" Nullable="false" />
+    <Property Name="id_jenis_pembayaran" Type="int" Nullable="false" />
+    <Property Name="id_paket" Type="int" Nullable="false" />
+    <Property Name="berat" Type="int" Nullable="false" />
+    <Property Name="total_harga" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_detail_trs_pembelian_ms_barang">
+    <End Role="ms_barang" Type="Self.ms_barang" Multiplicity="1" />
+    <End Role="detail_trs_pembelian" Type="Self.detail_trs_pembelian" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ms_barang">
+        <PropertyRef Name="id_barang" />
+      </Principal>
+      <Dependent Role="detail_trs_pembelian">
+        <PropertyRef Name="id_barang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detail_trs_pembelian_trs_pembelian">
+    <End Role="trs_pembelian" Type="Self.trs_pembelian" Multiplicity="1" />
+    <End Role="detail_trs_pembelian" Type="Self.detail_trs_pembelian" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="trs_pembelian">
+        <PropertyRef Name="id_pembelian" />
+      </Principal>
+      <Dependent Role="detail_trs_pembelian">
+        <PropertyRef Name="id_pembelian" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ms_pegawai_ms_pegawai">
+    <End Role="ms_jabatan" Type="Self.ms_jabatan" Multiplicity="1" />
+    <End Role="ms_pegawai" Type="Self.ms_pegawai" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ms_jabatan">
+        <PropertyRef Name="id_jabatan" />
+      </Principal>
+      <Dependent Role="ms_pegawai">
+        <PropertyRef Name="id_jabatan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trs_pembelian_ms_pegawai">
+    <End Role="ms_pegawai" Type="Self.ms_pegawai" Multiplicity="1" />
+    <End Role="trs_pembelian" Type="Self.trs_pembelian" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ms_pegawai">
+        <PropertyRef Name="id_pegawai" />
+      </Principal>
+      <Dependent Role="trs_pembelian">
+        <PropertyRef Name="id_pegawai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trs_pembelian_ms_supplier">
+    <End Role="ms_supplier" Type="Self.ms_supplier" Multiplicity="1" />
+    <End Role="trs_pembelian" Type="Self.trs_pembelian" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ms_supplier">
+        <PropertyRef Name="id_supplier" />
+      </Principal>
+      <Dependent Role="trs_pembelian">
+        <PropertyRef Name="id_supplier" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trs_penerimaan_jenis_pembayaran">
+    <End Role="jenis_pembayaran" Type="Self.jenis_pembayaran" Multiplicity="1" />
+    <End Role="trs_penerimaan" Type="Self.trs_penerimaan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="jenis_pembayaran">
+        <PropertyRef Name="id_jenis_pembayaran" />
+      </Principal>
+      <Dependent Role="trs_penerimaan">
+        <PropertyRef Name="id_jenis_pembayaran" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trs_penerimaan_ms_customer">
+    <End Role="ms_customer" Type="Self.ms_customer" Multiplicity="1" />
+    <End Role="trs_penerimaan" Type="Self.trs_penerimaan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ms_customer">
+        <PropertyRef Name="id_customer" />
+      </Principal>
+      <Dependent Role="trs_penerimaan">
+        <PropertyRef Name="id_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trs_penerimaan_ms_paket">
+    <End Role="ms_paket" Type="Self.ms_paket" Multiplicity="1" />
+    <End Role="trs_penerimaan" Type="Self.trs_penerimaan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ms_paket">
+        <PropertyRef Name="id_paket" />
+      </Principal>
+      <Dependent Role="trs_penerimaan">
+        <PropertyRef Name="id_paket" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="laundryModelStoreContainer">
+    <EntitySet Name="detail_trs_pembelian" EntityType="Self.detail_trs_pembelian" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="jenis_pembayaran" EntityType="Self.jenis_pembayaran" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ms_barang" EntityType="Self.ms_barang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ms_customer" EntityType="Self.ms_customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ms_jabatan" EntityType="Self.ms_jabatan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ms_paket" EntityType="Self.ms_paket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ms_pegawai" EntityType="Self.ms_pegawai" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ms_supplier" EntityType="Self.ms_supplier" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="trs_member" EntityType="Self.trs_member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="trs_pembelian" EntityType="Self.trs_pembelian" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="trs_penerimaan" EntityType="Self.trs_penerimaan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_detail_trs_pembelian_ms_barang" Association="Self.FK_detail_trs_pembelian_ms_barang">
+      <End Role="ms_barang" EntitySet="ms_barang" />
+      <End Role="detail_trs_pembelian" EntitySet="detail_trs_pembelian" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detail_trs_pembelian_trs_pembelian" Association="Self.FK_detail_trs_pembelian_trs_pembelian">
+      <End Role="trs_pembelian" EntitySet="trs_pembelian" />
+      <End Role="detail_trs_pembelian" EntitySet="detail_trs_pembelian" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ms_pegawai_ms_pegawai" Association="Self.FK_ms_pegawai_ms_pegawai">
+      <End Role="ms_jabatan" EntitySet="ms_jabatan" />
+      <End Role="ms_pegawai" EntitySet="ms_pegawai" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trs_pembelian_ms_pegawai" Association="Self.FK_trs_pembelian_ms_pegawai">
+      <End Role="ms_pegawai" EntitySet="ms_pegawai" />
+      <End Role="trs_pembelian" EntitySet="trs_pembelian" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trs_pembelian_ms_supplier" Association="Self.FK_trs_pembelian_ms_supplier">
+      <End Role="ms_supplier" EntitySet="ms_supplier" />
+      <End Role="trs_pembelian" EntitySet="trs_pembelian" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trs_penerimaan_jenis_pembayaran" Association="Self.FK_trs_penerimaan_jenis_pembayaran">
+      <End Role="jenis_pembayaran" EntitySet="jenis_pembayaran" />
+      <End Role="trs_penerimaan" EntitySet="trs_penerimaan" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trs_penerimaan_ms_customer" Association="Self.FK_trs_penerimaan_ms_customer">
+      <End Role="ms_customer" EntitySet="ms_customer" />
+      <End Role="trs_penerimaan" EntitySet="trs_penerimaan" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trs_penerimaan_ms_paket" Association="Self.FK_trs_penerimaan_ms_paket">
+      <End Role="ms_paket" EntitySet="ms_paket" />
+      <End Role="trs_penerimaan" EntitySet="trs_penerimaan" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

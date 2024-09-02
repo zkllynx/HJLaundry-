@@ -1,0 +1,71 @@
+﻿@model IEnumerable<HJLaundry.Models.ms_customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutKaryawan.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<div class="row-cols-lg" style="padding-left:50ex;">
+    <a class="btn btn-success btn-md wSaves-effect waves-light" role="button" href="/ms_customer/Create"><span class="fa fa-plus-circle mx-1" style="display: inline"></span>Tambah</a>
+</div>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive my-3">
+                    <table id="dataTableExample" class="table table-striped ">
+                        <thead class="thead-light">
+
+                        <thead>
+                            <tr>
+                                <th scope="col" style="height:20px;width:20px;">No</th>
+                                <th scope="col">Nama Customer</th>
+                                <th scope="col">Telephone</th>
+                                <th scope="col">Alamat</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                            int i = 1;
+                            }
+
+                            @foreach (var item in Model)
+                            {
+                            <tr>
+                                <td style="height:20px;width:20px;">
+                                    @i
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.nama_customer)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.telp_customer)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.alamat_customer)
+                                </td>
+                                <td>
+                                    @(item.status == 0 ? "Tidak Aktif" : "Aktif")
+                                </td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm waves-effect waves-light" type="button"><span class="fa fa-sticky-note mx-1" style="display: inline"></span>@Html.ActionLink("Detail", "Details", "ms_pegawai", new { id = item.id_customer }, new { Style = "color:Black" })</button>
+                                    <button class="btn btn-info btn-sm waves-effect waves-light" type="button"><span class="fa fa-pencil-alt mx-1" style="display: inline"></span>@Html.ActionLink("Edit", "Edit", "ms_pegawai", new { id = item.id_customer }, new { Style = "color:Black" })</button>
+                                    <button class="btn btn-success waves-effect waves-light" type="button"><span class="fa fa-trash mx-1" style="display: inline"></span>@Html.ActionLink("Hapus", "Delete", "ms_pegawai", new { id = item.id_customer }, new { Style = "color:Black" })</button>
+                                </td>
+                            </tr>
+                            i++;
+                            }
+                        <tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

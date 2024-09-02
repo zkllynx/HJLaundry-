@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="laundryModelStoreContainer" CdmEntityContainer="laundryEntities">
+    <EntitySetMapping Name="detail_trs_pembelian">
+      <EntityTypeMapping TypeName="laundryModel.detail_trs_pembelian">
+        <MappingFragment StoreEntitySet="detail_trs_pembelian">
+          <ScalarProperty Name="id_detail_transaksi_pembelian" ColumnName="id_detail_transaksi_pembelian" />
+          <ScalarProperty Name="id_pembelian" ColumnName="id_pembelian" />
+          <ScalarProperty Name="id_barang" ColumnName="id_barang" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jenis_pembayaran">
+      <EntityTypeMapping TypeName="laundryModel.jenis_pembayaran">
+        <MappingFragment StoreEntitySet="jenis_pembayaran">
+          <ScalarProperty Name="id_jenis_pembayaran" ColumnName="id_jenis_pembayaran" />
+          <ScalarProperty Name="nama_jenis_pembayaran" ColumnName="nama_jenis_pembayaran" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ms_barang">
+      <EntityTypeMapping TypeName="laundryModel.ms_barang">
+        <MappingFragment StoreEntitySet="ms_barang">
+          <ScalarProperty Name="id_barang" ColumnName="id_barang" />
+          <ScalarProperty Name="nama_barang" ColumnName="nama_barang" />
+          <ScalarProperty Name="harga" ColumnName="harga" />
+          <ScalarProperty Name="stok" ColumnName="stok" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ms_customer">
+      <EntityTypeMapping TypeName="laundryModel.ms_customer">
+        <MappingFragment StoreEntitySet="ms_customer">
+          <ScalarProperty Name="id_customer" ColumnName="id_customer" />
+          <ScalarProperty Name="nama_customer" ColumnName="nama_customer" />
+          <ScalarProperty Name="telp_customer" ColumnName="telp_customer" />
+          <ScalarProperty Name="alamat_customer" ColumnName="alamat_customer" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ms_jabatan">
+      <EntityTypeMapping TypeName="laundryModel.ms_jabatan">
+        <MappingFragment StoreEntitySet="ms_jabatan">
+          <ScalarProperty Name="id_jabatan" ColumnName="id_jabatan" />
+          <ScalarProperty Name="nama_jabatan" ColumnName="nama_jabatan" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ms_paket">
+      <EntityTypeMapping TypeName="laundryModel.ms_paket">
+        <MappingFragment StoreEntitySet="ms_paket">
+          <ScalarProperty Name="id_paket" ColumnName="id_paket" />
+          <ScalarProperty Name="nama_paket" ColumnName="nama_paket" />
+          <ScalarProperty Name="harga" ColumnName="harga" />
+          <ScalarProperty Name="keterangan" ColumnName="keterangan" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ms_pegawai">
+      <EntityTypeMapping TypeName="laundryModel.ms_pegawai">
+        <MappingFragment StoreEntitySet="ms_pegawai">
+          <ScalarProperty Name="id_pegawai" ColumnName="id_pegawai" />
+          <ScalarProperty Name="nama_pegawai" ColumnName="nama_pegawai" />
+          <ScalarProperty Name="tgl_lahir" ColumnName="tgl_lahir" />
+          <ScalarProperty Name="jenis_kelamin" ColumnName="jenis_kelamin" />
+          <ScalarProperty Name="telp_pegawai" ColumnName="telp_pegawai" />
+          <ScalarProperty Name="alamat_pegawai" ColumnName="alamat_pegawai" />
+          <ScalarProperty Name="id_jabatan" ColumnName="id_jabatan" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="status_pgw" ColumnName="status_pgw" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ms_supplier">
+      <EntityTypeMapping TypeName="laundryModel.ms_supplier">
+        <MappingFragment StoreEntitySet="ms_supplier">
+          <ScalarProperty Name="id_supplier" ColumnName="id_supplier" />
+          <ScalarProperty Name="nama_supplier" ColumnName="nama_supplier" />
+          <ScalarProperty Name="alamat_supplier" ColumnName="alamat_supplier" />
+          <ScalarProperty Name="telp_supplier" ColumnName="telp_supplier" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trs_member">
+      <EntityTypeMapping TypeName="laundryModel.trs_member">
+        <MappingFragment StoreEntitySet="trs_member">
+          <ScalarProperty Name="id_trsmember" ColumnName="id_trsmember" />
+          <ScalarProperty Name="tgl_trsmember" ColumnName="tgl_trsmember" />
+          <ScalarProperty Name="id_customer" ColumnName="id_customer" />
+          <ScalarProperty Name="nama_customer" ColumnName="nama_customer" />
+          <ScalarProperty Name="telp_customer" ColumnName="telp_customer" />
+          <ScalarProperty Name="alamat_customer" ColumnName="alamat_customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trs_pembelian">
+      <EntityTypeMapping TypeName="laundryModel.trs_pembelian">
+        <MappingFragment StoreEntitySet="trs_pembelian">
+          <ScalarProperty Name="id_pembelian" ColumnName="id_pembelian" />
+          <ScalarProperty Name="id_pegawai" ColumnName="id_pegawai" />
+          <ScalarProperty Name="id_supplier" ColumnName="id_supplier" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="tgl_pembelian" ColumnName="tgl_pembelian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trs_penerimaan">
+      <EntityTypeMapping TypeName="laundryModel.trs_penerimaan">
+        <MappingFragment StoreEntitySet="trs_penerimaan">
+          <ScalarProperty Name="id_penerimaan" ColumnName="id_penerimaan" />
+          <ScalarProperty Name="id_customer" ColumnName="id_customer" />
+          <ScalarProperty Name="tgl_penerimaan" ColumnName="tgl_penerimaan" />
+          <ScalarProperty Name="id_jenis_pembayaran" ColumnName="id_jenis_pembayaran" />
+          <ScalarProperty Name="id_paket" ColumnName="id_paket" />
+          <ScalarProperty Name="berat" ColumnName="berat" />
+          <ScalarProperty Name="total_harga" ColumnName="total_harga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

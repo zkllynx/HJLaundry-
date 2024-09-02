@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9778efc8f525417db410fd75e46df9c9" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="laundryModel.detail_trs_pembelian" Width="1.5" PointX="9.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.jenis_pembayaran" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.ms_barang" Width="1.5" PointX="7.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.ms_customer" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.ms_jabatan" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.ms_paket" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.ms_pegawai" Width="1.5" PointX="5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.ms_supplier" Width="1.5" PointX="5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.trs_member" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.trs_pembelian" Width="1.5" PointX="7.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="laundryModel.trs_penerimaan" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="laundryModel.FK_detail_trs_pembelian_ms_barang" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_detail_trs_pembelian_trs_pembelian" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_trs_penerimaan_jenis_pembayaran" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_trs_penerimaan_ms_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_ms_pegawai_ms_pegawai" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_trs_penerimaan_ms_paket" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_trs_pembelian_ms_pegawai" ManuallyRouted="false" />
+        <AssociationConnector Association="laundryModel.FK_trs_pembelian_ms_supplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

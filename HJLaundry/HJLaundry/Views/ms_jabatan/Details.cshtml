@@ -1,0 +1,35 @@
+﻿@model HJLaundry.Models.ms_jabatan
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutManager.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ms_jabatan</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nama_jabatan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nama_jabatan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_jabatan }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,57 @@
+﻿@model HJLaundry.Models.ms_supplier
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ms_supplier</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nama_supplier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nama_supplier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alamat_supplier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alamat_supplier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telp_supplier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telp_supplier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

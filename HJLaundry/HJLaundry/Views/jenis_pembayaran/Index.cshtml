@@ -1,0 +1,55 @@
+﻿@model IEnumerable<HJLaundry.Models.jenis_pembayaran>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Jenis Pembayaran</h2>
+
+<div class="row-cols-lg" style="padding-left:50ex;">
+    <a class="btn btn-primary btn-block" role="button" href="/jenis_pembayaran/Create"><span class="fa fa-plus-circle mx-1" style="display: inline"></span>Tambah</a>
+</div>
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive my-3">
+                    <table id="dataTableExample" class="table table-striped ">
+                        <thead class="thead-light">
+                            <tr class="text-center">
+                                <th scope="col">No</th>
+                                <th scope="col">Jenis Pembayaran</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ int i = 0;}
+
+                            @foreach (var item in Model)
+                            {
+                                i++;
+                            <tr>
+                                <th scope="row">@i</th>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.nama_jenis_pembayaran)
+                                </td>
+                                <td>
+                                    @(item.status == 0 ? "Tidak Aktif" : "Aktif")
+                                </td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm waves-effect waves-light" type="button"><span class="fas fa-sticky-note" style="display: inline"></span>@Html.ActionLink("Detail", "Details", "jenis_pembayaran", new { id = item.id_jenis_pembayaran }, new { Style = "color:Black" })</button>
+                                    <button class="btn btn-info btn-sm waves-effect waves-light" type="button"><span class="fas fa-pencil-alt" style="display: inline"></span>@Html.ActionLink("Edit", "Edit", "jenis_pembayaran", new { id = item.id_jenis_pembayaran }, new { Style = "color:Black" })</button>
+                                    <button class="btn btn-success waves-effect waves-light" type="button"><span class="fas fa-trash" style="display: inline"></span>@Html.ActionLink("Hapus", "Delete", "jenis_pembayaran", new { id = item.id_jenis_pembayaran }, new { Style = "color:Black" })</button>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

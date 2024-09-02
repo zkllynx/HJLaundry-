@@ -1,0 +1,51 @@
+﻿@model HJLaundry.Models.ms_supplier
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ms_supplier</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nama_supplier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nama_supplier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alamat_supplier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alamat_supplier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telp_supplier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telp_supplier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_supplier }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

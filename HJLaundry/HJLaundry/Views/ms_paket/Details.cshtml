@@ -1,0 +1,51 @@
+﻿@model HJLaundry.Models.ms_paket
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutKaryawan.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ms_paket</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nama_paket)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nama_paket)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.harga)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.harga)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.keterangan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.keterangan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_paket }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
